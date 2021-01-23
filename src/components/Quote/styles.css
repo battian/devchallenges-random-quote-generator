@@ -1,0 +1,24 @@
+.quote {
+  font-size: 2.25rem;
+  line-height: 120%;
+  color: var(--primary);
+
+  max-width: 800px;
+  padding-left: 100px;
+  border-left: 0.5rem solid var(--secondary);
+}
+
+@media (max-width: 768px) {
+  .quote {
+    max-width: 580px;
+    font-size: 1.75rem;
+    padding-left: 50px;
+  }
+}
+
+@media (max-width: 375px) {
+  .quote {
+    font-size: 1.3rem;
+    padding-left: 35px;
+  }
+}
